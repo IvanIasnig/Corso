@@ -20,7 +20,7 @@ console.log(strconcat("gatto", "topo"));
 function arraygen() {
   const array = [];
   for (let i = 0; i < 10; i++) {
-    const num = Math.floor(Math.random() * 20);
+    const num = Math.floor(Math.random() * 101);
     if (!array.includes(num)) {
       array.push(num);
     } else {
