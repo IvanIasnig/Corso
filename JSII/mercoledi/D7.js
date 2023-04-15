@@ -307,3 +307,10 @@ function sommaAnni(film) {
 }
 
 console.log(sommaAnni(movies));
+
+function isEmailValid(email) {
+  const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return regex.test(email);
+}
+
+console.log(isEmailValid("cd@gmail.ds"));
