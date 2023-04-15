@@ -21,7 +21,6 @@ var sum = 10 + 20;
 
 let random = Math.floor(Math.random() * 21);
 
-console.log(random);
 
 /* ESERCIZIO C
   Crea una variabile chiamata "me" e assegnaci un oggetto contenente le seguenti proprietà: name = il tuo nome, surname = il tuo cognome, age = la tua età.
@@ -51,7 +50,7 @@ me.skills = ["JS", "HTML", "CSS"]; //(so che html e css sono linguaggi di markup
 
 me.skills.push("JSX"); //so che JSX è un estensione di js e non è un vero e proprio linguaggio ma non sapevo cosa aggiungere
 
-console.log(me);
+
 
 /* ESERCIZIO G
   Crea un pezzo di codice per rimuovere programmaticamente l'ultimo elemento dall'array "skills" contenuto nell'oggetto "me".
@@ -59,7 +58,6 @@ console.log(me);
 
 me.skills.pop();
 
-console.log(me);
 
 // Funzioni
 
@@ -538,6 +536,7 @@ function stampaTd() {
 }
 console.log("---ESERCIZIO 22---");
 stampaTd();
+
 /* ESERCIZIO 23
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
