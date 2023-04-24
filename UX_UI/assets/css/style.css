@@ -224,6 +224,7 @@ footer a {
     width: 48%;
     border-radius: 1vw;
     height: 100%;
+    vertical-align: middle;
   }
 
   header > div,
