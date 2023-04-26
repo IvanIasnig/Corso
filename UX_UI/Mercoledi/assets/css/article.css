@@ -1,0 +1,27 @@
+.container_article {
+  display: flex;
+  background-color: #fbf7e3;
+  color: #642e1a;
+  flex-wrap: wrap;
+}
+
+img {
+  margin: 20px;
+}
+
+.text {
+  width: 40%;
+}
+
+@media screen and (max-width: 915px) {
+  .container_article {
+    flex-direction: column;
+  }
+  .text {
+    order: 1;
+    width: 100%;
+  }
+  .immagine {
+    order: 2;
+  }
+}

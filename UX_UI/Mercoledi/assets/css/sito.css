@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #642e1a;
+}
+
+.container_nav {
+  display: flex;
+  background-color: #fbf7e3;
+  border-radius: 50px;
+  width: 100%;
+}
+
+button {
+  font-size: 16px;
+  color: #642e1a;
+  background-color: #f3df85;
+  margin: auto;
+  border-radius: 50px;
+  border: none;
+  padding: 2%;
+  justify-content: space-around;
+}
+
+.btn_img {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/*main*/
+.container_card {
+  margin: 3vh;
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 40%;
+}
+.productImage {
+  width: 100%;
+  height: 100%;
+  background-image: url("../imgs/honey.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 90px 90px 0 0;
+}
+.productCard {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #fbf7e3;
+  border-radius: 0 0 90px 90px;
+  justify-content: center;
+}
+.productInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+.productName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  font-size: 1.2em;
+  color: #642e1a;
+  background-color: #f3df85;
+  width: 50%;
+  margin: auto;
+  border-radius: 50px;
+  border: none;
+  padding: 2vh;
+  margin-bottom: 2vh;
+}
+
+.main {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/*footer*/
+.container_article {
+  display: flex;
+  background-color: #fbf7e3;
+  color: #642e1a;
+  flex-wrap: wrap-reverse;
+}
+
+.immagine {
+  margin: 3% auto;
+  width: 80%;
+}
+
+.text {
+  width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    display: flex;
+  }
+  .container_nav {
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+  }
+
+  button {
+    margin: 3vh 1vw;
+    padding: 2vh 2vw;
+  }
+
+  .quasiTutto {
+    flex-grow: 3;
+  }
+
+  .main {
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .btn_img {
+    order: -1;
+    justify-content: center;
+    width: 90%;
+  }
+  button {
+    width: 40%;
+    margin: 1vh auto;
+  }
+  .container_nav {
+    flex-wrap: wrap;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container_card {
+    width: 90%;
+  }
+  h1 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container_article {
+    flex-wrap: nowrap;
+  }
+  .immagine {
+    margin: 3% auto;
+    width: 45%;
+  }
+
+  .text {
+    width: 45%;
+  }
+}
