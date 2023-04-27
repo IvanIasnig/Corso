@@ -13,7 +13,7 @@ main {
   margin: auto;
   padding: 1.2em;
   font-size: 2em;
-  width: 57%;
+  width: 600px;
 }
 
 .parole {
@@ -33,35 +33,16 @@ main {
   animation: fadein 2s ease-out;
 }
 .parole div:nth-of-type(2) {
-  animation: fadein1 2s ease-out 2s;
+  animation: fadein 2s ease-out 2s;
 }
 .parole div:last-of-type {
-  animation: fadein2 2s ease-out 4s forwards;
+  animation: fadein 2s ease-out 4s forwards;
 }
 
 @keyframes fadein {
   0% {
     opacity: 0;
     transform: translateY(-400%);
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fadein1 {
-  0% {
-    opacity: 0;
-    transform: translateY(-500%);
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fadein2 {
-  0% {
-    opacity: 0;
-    transform: translateY(-600%);
   }
   100% {
     opacity: 1;
