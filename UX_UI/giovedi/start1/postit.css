@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Indie Flower", cursive;
+}
+#cards article {
+  width: 20%;
+  height: 160px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.562);
+}
+
+#cards article:hover {
+  z-index: 1;
+  transform: scale(1.2);
+  transition: 0.7s ease-in-out;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  background-color: #666666;
+}
+#container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+#card1,
+#card5,
+#card7 {
+  background-color: #fafbc9;
+  transform: rotate(-3deg);
+  animation-name: ciao2;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+#card2,
+#card4,
+#card8 {
+  background-color: #cbfdcd;
+  transform: rotate(5deg);
+  animation-name: ciao2;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+}
+
+#card3,
+#card6 {
+  background-color: #c2c3ec;
+  transform: rotate(-7deg);
+  animation-name: ciao;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes ciao {
+  from {
+    transform: translateX(-600%);
+  }
+  30% {
+    transform: translateY(-70%);
+  }
+  70% {
+    transform: translateX(70%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes ciao2 {
+  from {
+    transform: translateY(-500%);
+  }
+
+  30% {
+    transform: translateX(-70%);
+  }
+
+  70% {
+    transform: translateX(70%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+h4 {
+  font-size: 1.7em;
+  font-weight: 700;
+}
