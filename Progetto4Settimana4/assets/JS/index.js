@@ -17,10 +17,13 @@ function toggleOpacity() {
 
 window.addEventListener("scroll", function () {
   var nav = document.querySelector("#abc");
+  var bottone = document.querySelector(".btn");
   var scrollPosition = window.scrollY;
   if (scrollPosition > 200) {
     nav.style.backgroundColor = "white";
+    bottone.style.backgroundColor = "rgb(2, 71, 0)";
   } else {
     nav.style.backgroundColor = "rgb(255, 192, 23)";
+    bottone.style.backgroundColor = "rgb(0, 0, 0)";
   }
 });
