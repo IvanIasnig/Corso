@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Spectral&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+hr {
+  border: black solid 1px;
+}
+
+.navhead {
+  background-color: rgb(255, 192, 23);
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+/*NAVBAR*/
+
+#abc {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(255, 192, 23);
+  border-bottom: 1px solid black;
+  transition: 0.3s ease-in-out;
+}
+
+nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.float svg {
+  float: left;
+}
+
+.float div {
+  float: right;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 12px;
+  border-style: none;
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0);
+  transition: 0.5s;
+}
+
+.link-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-nav a {
+  margin-right: 10px;
+}
+/*HEADER*/
+header {
+  margin-top: 60px;
+}
+.container2 {
+  margin-left: 15%;
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  justify-content: center;
+}
+
+.curious {
+  font-size: 130px;
+  font-weight: 550;
+  white-space: nowrap;
+  font-family: "Spectral", serif;
+  letter-spacing: -10px;
+}
+
+.subtitle {
+  color: rgb(39, 39, 39);
+  font-size: 27px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.Msvg {
+  flex-grow: 1;
+}
+
+.btn2 {
+  width: 150px;
+}
+
+/*MAIN*/
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.articles div {
+  margin: 50px 0;
+  width: 33%;
+}
+
+.notSpan {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: -20px;
+  display: flex;
+  align-items: center;
+}
+
+.person {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-bottom: -5px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.ciao {
+  margin-left: 80px;
+}
+
+.num {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(66, 66, 66);
+  margin-bottom: 200px;
+}
+
+.small {
+  color: rgb(104, 104, 104);
+}
+
+h3 {
+  display: inline;
+}
+
+/*SEZIONE 2 */
+
+.section2 {
+  display: flex;
+  position: relative;
+}
+
+.altriArt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.stick {
+  position: sticky;
+  flex-basis: 50%;
+  margin-left: 50px;
+}
+
+.altriArt div {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.secImg {
+  width: 200px;
+  float: right;
+}
+
+.logo2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

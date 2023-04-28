@@ -63,7 +63,6 @@ body {
   animation-name: ciao;
   animation-duration: 5s;
   animation-timing-function: linear;
-  
 }
 
 @keyframes ciao {
@@ -80,7 +79,6 @@ body {
     transform: translateX(0) rotate(360deg);
   }
 }
-
 
 @keyframes ciao2 {
   from {
