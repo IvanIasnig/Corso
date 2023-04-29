@@ -171,35 +171,69 @@ h4 {
 
 /*SEZIONE 2 */
 
+.hr2 {
+  border: rgb(185, 185, 185) solid 0.1vh;
+  position: absolute;
+  left: -15%;
+  width: 140%;
+}
+
 .section2 {
   display: flex;
-  position: relative;
+  margin-top: 4vh;
 }
 
 .altriArt {
+  flex-basis: 98%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  
 }
 
-.stick {
+#stick {
+height: 250px;
   position: sticky;
-  flex-basis: 50%;
-  margin-left: 50px;
+  top: 60px;
+  flex-basis: 2%;
+  
 }
 
-.altriArt div {
-  margin-bottom: 20px;
+.art2 div {
   display: flex;
 }
 
-.secImg {
-  width: 200px;
-  float: right;
+.titRiq {
+  font-size: 15px;
+  white-space: nowrap;
+  margin-left: 45px;
 }
 
-.logo2 {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+
+
+ul {
+  list-style-type: none;
+}
+
+li{
+  white-space: nowrap;
+  margin-top: 20px;
+  
+}
+
+li span {
+  background-color: rgb(214, 214, 214);
+  border-radius: 20px;
+  margin: 30px 0px;
+  padding: 7px;
+}
+
+li span:hover{
+  background-color: rgb(156, 156, 156);
+  transition: 0.5s;
+}
+
+.aNonw{
+  color: black;
+  text-decoration: none;
 }
