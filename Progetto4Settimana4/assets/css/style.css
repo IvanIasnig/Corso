@@ -54,6 +54,7 @@ nav {
 .btn {
   border-radius: 20px;
   padding: 12px;
+  padding-left: 20px;
   border-style: none;
   background-color: rgb(34, 34, 34);
   color: white;
@@ -75,7 +76,9 @@ nav {
   margin-right: 10px;
 }
 
-
+.navL {
+  padding-right: 20px;
+}
 
 /*HEADER*/
 header {
@@ -236,34 +239,39 @@ li span:hover {
   text-decoration: none;
 }
 
-.greenTit{
+.greenTit {
   margin-left: 45px;
   color: green;
   margin-top: 40px;
 }
 
-.hr3{
+.hr3 {
   border: rgb(185, 185, 185) solid 0.1vh;
   position: absolute;
   left: 10%;
   width: 90%;
 }
 
-.ul2{
+.ul2 {
   margin-top: 30px;
-  margin-left:  6px;
+  margin-left: 6px;
 }
-.ul2 li{
-  word-spacing: 20px ;
+.ul2 li {
+  word-spacing: 20px;
   color: rgb(92, 92, 92);
 }
 
-.noA{
+.noA {
   text-decoration: none;
-  color:unset;
+  color: unset;
 }
 
-.immSection2{
-  width: 200px;
-  height: 140px;
+.immSection2 {
+  width: 230px;
+  height: 160px;
+  margin-top: 20px;
+}
+
+.mrg {
+  margin-top: 20px;
 }
