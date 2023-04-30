@@ -74,6 +74,9 @@ nav {
 .link-nav a {
   margin-right: 10px;
 }
+
+
+
 /*HEADER*/
 header {
   margin-top: 60px;
@@ -188,15 +191,13 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  
 }
 
 #stick {
-height: 250px;
+  height: 250px;
   position: sticky;
   top: 60px;
   flex-basis: 2%;
-  
 }
 
 .art2 div {
@@ -209,16 +210,13 @@ height: 250px;
   margin-left: 45px;
 }
 
-
-
 ul {
   list-style-type: none;
 }
 
-li{
+li {
   white-space: nowrap;
   margin-top: 20px;
-  
 }
 
 li span {
@@ -228,12 +226,44 @@ li span {
   padding: 7px;
 }
 
-li span:hover{
+li span:hover {
   background-color: rgb(156, 156, 156);
   transition: 0.5s;
 }
 
-.aNonw{
+.aNonw {
   color: black;
   text-decoration: none;
+}
+
+.greenTit{
+  margin-left: 45px;
+  color: green;
+  margin-top: 40px;
+}
+
+.hr3{
+  border: rgb(185, 185, 185) solid 0.1vh;
+  position: absolute;
+  left: 10%;
+  width: 90%;
+}
+
+.ul2{
+  margin-top: 30px;
+  margin-left:  6px;
+}
+.ul2 li{
+  word-spacing: 20px ;
+  color: rgb(92, 92, 92);
+}
+
+.noA{
+  text-decoration: none;
+  color:unset;
+}
+
+.immSection2{
+  width: 200px;
+  height: 140px;
 }
