@@ -1,0 +1,106 @@
+@import "./assets/css/color.scss";
+
+$avatar-h-w: 40px;
+$circle: 100%;
+$fit: cover;
+
+
+.avatar {
+  height: $avatar-h-w;
+  width: $avatar-h-w;
+  border-radius: $circle;
+  object-fit: $fit;
+}
+
+.backk {
+  background-color: #7550fe;
+}
+.hero {
+  background-color: #7550fe;
+  height: 40vh;
+}
+
+.hero-img {
+  height: 100%;
+  width: 50%;
+  object-fit: $fit;
+}
+
+.grey{
+  background-color: $grey;
+}
+
+.panna{
+  background-color: $panna;
+}
+
+.green {
+  background-color: $green;
+
+  &:hover {
+    background-color: rgba($green, $hover) !important;
+  }
+}
+
+.white {
+  background-color: $white;
+
+  &:hover {
+    background-color: rgba($white, $hover) !important;
+  }
+}
+
+.senape {
+  background-color: $senape;
+}
+
+.imgSvg {
+  background-color: $senape;
+  border-radius: $circle;
+  width: 30px;
+  height: 30px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  cursor:pointer;
+}
+
+.bellHover {
+  &:hover {
+    background-color: rgba($senape, $hover) !important;
+    cursor:pointer;
+    transition: 0.5s;
+  }
+}
+
+.green-dot {
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+  width: 15px;
+  height: 15px;
+  background-color: $green;
+  border: 3px solid $white;
+  border-radius: 50%;
+}
+
+.violet-dot {
+  position: absolute;
+  top: 0;
+  
+  width: 15px;
+  height: 15px;
+  background-color: $violet;
+  border: 3px solid $white;
+  border-radius: 50%;
+}
+
+.marginBell{
+  margin-left: 0.7rem;
+}
+
+.marginSenape{
+  margin-left: 0.75rem;
+}
