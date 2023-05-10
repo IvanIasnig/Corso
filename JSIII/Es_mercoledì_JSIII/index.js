@@ -12,7 +12,7 @@ function createBookCard(book) {
       </div>
       <div class="card-footer">
         <div>Prezzo: ${book.price}€</div>
-        <button id="btnDel" class="btn btn-secondary mt-1" onclick="deleteBook()">Scarta</button>
+        <button id="btnDel" class="btn btn-secondary mt-1" onclick="funzione(event)">Scarta</button>
       </div>
     </div>
   `;
@@ -20,9 +20,10 @@ function createBookCard(book) {
   return card;
 }
 
-function deleteBook() {
-  card.remove();
-}
+const funzione = (ev) => {
+  console.log(ev);
+  ev.target.closest(".card-footer").remove();
+};
 
 async function getBooks() {
   try {
