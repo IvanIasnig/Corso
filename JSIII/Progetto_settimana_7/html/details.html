@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="icon" href="../assets/img/logo.jpg" type="image/x-icon" />
+    <style>
+      .backgroundMain {
+        background-image: url("../assets/img/cyber.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+      }
+      body {
+        background: linear-gradient(to right, #bffffa, #567dfd);
+      }
+      .card {
+        border-radius: 15px;
+      }
+      .img-container {
+        overflow: hidden;
+        border-radius: 15px;
+      }
+      .img-fluid {
+        transition: transform 1s;
+      }
+      .img-container:hover .img-fluid {
+        transform: scale(1.5);
+      }
+      .product-info {
+        color: #343a40;
+      }
+    </style>
+
+    <script src="../js/details.js" defer></script>
+  </head>
+  <header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <img src="../assets/img/eye.svg" alt="logo" width="30px" />
+          <strong class="m-2">Discover</strong>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <body class="backgroundMain">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12" id="product-details"></div>
+      </div>
+    </div>
+    <script src="../js/details.js" type="module"></script>
+    <script src="../node_modules/@popperjs/core/dist/umd/enums.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  </body>
+</html>

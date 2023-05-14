@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <style>
+            body {
+        background: linear-gradient(to right, #ffecec, #ff7777);
+      }
+
+      .backgroundMain {
+        background-image: url("../assets/img/photo-1553949345-eb786bb3f7ba.jpg");
+        
+      }
+
+      footer {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        
+      }
+
+
+
+    </style>
+    <link rel="icon" href="../assets/img/logo.jpg" type="image/x-icon">
+    <title>Office</title>
+  </head>
+  <body>
+    <header style="position:sticky; top:0; z-index:1">
+      <div class="navbar navbar-dark bg-danger shadow-sm" >
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+              <img src="../assets/img/hammer.svg" alt="logo" width="30px">
+            <strong class="ms-5">Back Office</strong>
+          </a>
+          
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <button class="btn btn-danger mt-3" style="position:sticky; top: 75px; z-index:1"><a href="../html/homePage.html"class="text-white text-decoration-none">Home Page</a></button>
+      <form class="mt-3">
+        <input type="text" name="name" id="name" placeholder="Name" class="m-1" required />
+        <input
+          type="text"
+          name="description"
+          id="description"
+          placeholder="description"
+          class="m-1"
+          required
+        />
+        <input
+          type="text"
+          name="brand"
+          id="brand"
+          placeholder="brand"
+          class="m-1"
+          required
+        />
+        <input
+          type="text"
+          name="imageUrl"
+          id="imageUrl"
+          placeholder="imageUrl"
+          class="m-1"
+          required
+        />
+        <input
+          type="number"
+          name="price"
+          id="price"
+          placeholder="price"
+          class="m-1"
+          required
+        />
+        <button type="submit" id="inputButton" class="m-1 btn btn-success">Add Object</button>
+        <button type="reset" class="ms-3 mt-1 mb-2 btn btn-danger">Reset</button>
+      </form>
+
+      <div id="modify-form-container"></div> 
+
+      <main role="main" class="mt-4">
+        <div class=" backgroundMain  pb-4">
+          <div class="container">
+            <div class="row" id="books-container" >
+
+            
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="text-muted">
+        <div class="container">
+          <p class="float-right">
+            <a href="#">Back to top</a>
+          </p>
+          <p>
+            Rights reserved to &copy; Ducky 
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="../js/office.js"></script>
+    <script src="../node_modules/@popperjs/core/dist/umd/enums.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  </body>
+</html>

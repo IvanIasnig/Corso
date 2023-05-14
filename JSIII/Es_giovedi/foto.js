@@ -1,7 +1,5 @@
 import axios from "/node_modules/axios/dist/esm/axios.min.js";
 
-
-
 function photosGen(photos) {
   const card = document.createElement("div");
   card.id = `card-${photos.id}`;
@@ -65,5 +63,3 @@ async function getBooks() {
 }
 
 getBooks();
-
-

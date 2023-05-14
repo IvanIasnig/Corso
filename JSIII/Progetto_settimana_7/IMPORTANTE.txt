@@ -1,0 +1,1 @@
+Per l'utilizzo di bootstrap e di axios (per l'API) ho usato le librerie noode tramite npm.

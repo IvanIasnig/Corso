@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <style>
+      .backgroundMain {
+        background: linear-gradient(to right, #eefffe, #dce5ff);
+      }
+      body {
+        background-image: url("../assets/img/erin-mckenna-QjTUB3TMmLM-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+      }
+
+      footer {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+
+
+    </style>
+    <link rel="icon" href="../assets/img/logo.jpg" type="image/x-icon" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header style="position: sticky; top: 0; z-index: 1">
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <img src="../assets/img/house.svg" alt="logo" width="30px" />
+            <div class="spinner-border" style="color: white;" role="status" id="spinner">
+              
+            </div>
+            <strong class="ms-5">CRUDAZON</strong>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="container mt-5">
+      <main role="main">
+        <div class="album py-3 bg-light backgroundMain">
+          <div class="container">
+            <div class="row" id="books-container"></div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="text-muted backgroundMain">
+        <div class="container">
+          <p class="float-right">
+            <a href="#">Back to top</a>
+          </p>
+          <p>Rights reserved to &copy; Ducky</p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="../js/homePage.js"></script>
+    <script src="../node_modules/@popperjs/core/dist/umd/enums.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  </body>
+</html>
