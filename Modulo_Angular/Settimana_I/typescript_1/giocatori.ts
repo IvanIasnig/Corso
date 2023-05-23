@@ -31,8 +31,8 @@ function confrontazione(player1: number, player2: number) {
   }
 
 
+let array: any = [1,2,3,4] 
 
-  
-
-  
-
+array.forEach((element) => {
+  element + 1
+});
